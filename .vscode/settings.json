@@ -14,5 +14,6 @@
     },
     "githubPullRequests.ignoredPullRequestBranches": [
         "master"
-    ]
+    ],
+    "azureAutomation.directory.basePath": "c:\\Users\\EivindHelgeland"
 }

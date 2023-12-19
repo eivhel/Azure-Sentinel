@@ -90,8 +90,8 @@ def GetEndTime(logType):
         end_time = (end_time - timedelta(days=int(chatFetchDelay)))
     if logType == "user_accounts":
         end_time = (end_time - timedelta(hours=int(userAccountsFetchDelay)))
-    if logType == "login":
-        end_time = (end_time - timedelta(hours=int(loginFetchDelay)))
+#    if logType == "login":
+#        end_time = (end_time - timedelta(hours=int(loginFetchDelay)))
     else:
         end_time = (end_time - timedelta(minutes=int(fetchDelay)))
 
